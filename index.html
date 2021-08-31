@@ -4,315 +4,340 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BOOK HOTTEL</title>
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/fonts/fontawesome-free-5.15.4-web/css/all.css">
-    <link rel="stylesheet" href="/fonts/themify-icons/themify-icons.css">
-
+    <title>Edmono</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/font/fontawesome-free-5.15.4-web/css/all.css">
 </head>
 <body>
-    <div id="main">
-        <!-- header -->
-        <div id="header">
-            <ul id="nav">
-                <li class="nav_logo"><a href="#"><i class="fa fa-bed"></i>Logo</a></li>
-                <li><a href="#">Rooms</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <ul id="book_btn">
-                <li><a href="#">Book Now</a></li>
-            </ul>
-            
-        </div>
-        <!-- End header -->
-        
-        <!-- slider_picture -->
-        <div class="slider">
-            <div class="slider_img_hotel">
-                <img src="/img/slider/hotel.jpg" alt="hotel">
-                <div class="slider_form">
-                    <div class="form_header">
-                        <p><i class="fa fa-bed"></i>Hotel Name</p>
-                    </div>
-                    <div class="form_body">
-                        <div class="form_body_center">
-                            <div class="form_body_checkInOut">
-                                <div class="form_checkIn">
-                                    <p><i class="ti-calendar" aria-hidden="true"></i>Check In</p>
-                                    <input type="text" placeholder="DD MM YYYY">
-                                </div>
-                                <div class="form_checkOut">
-                                    <p><i class="ti-calendar" aria-hidden="true"></i>Check Out</p>
-                                    <input type="text" placeholder="DD MM YYYY">
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                            <div class="form_body_quantity">
-                                <div class="form_Adults">
-                                    <p><i class="fa fa-male" aria-hidden="true"></i>Adults</p>
-                                    <input type="number" min="1" max="6" placeholder="1">
-                                </div>
-                                <div class="form_kids">
-                                    <p><i class="fa fa-child" aria-hidden="true"></i>Kids</p>
-                                    <input type="number" min="0" max="6" placeholder="0">
-                                </div>
-                                
-                                <div class="clear"></div>
-                            </div>
-                            <div class="form_btn">
-                                <button><i class="ti-search"></i>Search availability</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="clear"></div>
-        </div>
-        <!-- End slider_picture -->
-
-        <!-- rooms -->
-        <div class="content_rooms">
-            <div class="rooms_title">
-                <h2>Rooms</h2>
-                <p>Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</p>
-            </div>
-            <div class="rooms_form">
-                <div class="row_16">
-                    <div class="rooms_checkInOut col_half">
-                        <div class="rooms_checkIn col_half">
-                            <p><i class="ti-calendar" aria-hidden="true"></i>Check In</p>
-                            <input type="text" placeholder="DD MM YYYY">
-                        </div>
-                        <div class="rooms_checkOut col_half">
-                            <p><i class="ti-calendar" aria-hidden="true"></i>Check Out</p>
-                            <input type="text" placeholder="DD MM YYYY">
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                    <div class="rooms_quantity col_half">
-                        <div class="rooms_Adults col_third">
-                            <p><i class="fa fa-male" aria-hidden="true"></i>Adults</p>
-                            <input type="number" min="1" max="6" placeholder="1">
-                        </div>
-                        <div class="rooms_Adults col_third">
-                            <p><i class="fa fa-child" aria-hidden="true"></i>Kids</p>
-                            <input type="number" min="1" max="6" placeholder="1">
-                        </div>
-                        <div class="rooms_btn col_third">
-                            <p><i class="ti-search"></i>Search</p>
-                            <button><a class="text_white" href="#">Search</a></button>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-            </div>
-        </div>
-        <!-- End rooms -->
-
-        <!-- pick_rooms Chọn phòng -->
-        <div class="selecter_rooms">
-            <div class="row">
-                <div class="selecter_item col_third">
-                    <img src="/img/Rooms/single/room_single.jpg" alt="">
-                    <div class="item_content">
-                        <h2>Single Room</h2>
-                        <p class="price">From $99</p>
-                        <p>Single bed</p>
-                        <p>
-                            15m2
-                            
-                        </p>
-                        <p>
-                            <i class="fa fa-bath"></i>
-                            <i class="fa fa-phone"></i>
-                            <i class="fa fa-wifi"></i>
-                        </p>
-                        <a href="#"><button>Choose Room</button></a> 
-                    </div>
-                </div>
-                <div class="selecter_item col_third">
-                    <img src="/img/Rooms/double/room_double.jpg" alt="">
-                    <div class="item_content">
-                        <h2>Double Room</h2>
-                        <p class="price">From $199</p>
-                        <p>Queen-size bed</p>
-                        <p>
-                            25m2
-                            
-                        </p>
-                        <p>
-                            <i class="fa fa-bath"></i>
-                            <i class="fa fa-phone"></i>
-                            <i class="fa fa-wifi"></i>
-                            <i class="fa fa-tv"></i>
-                        </p>
-                        <a href="#"><button>Choose Room</button></a> 
-                    </div>
-                </div>
-                <div class="selecter_item col_third">
-                    <img src="/img/Rooms/deluxe/room_deluxe.jpg" alt="">
-                    <div class="item_content">
-                        <h2>Deluxe Room</h2>
-                        <p class="price">From $199</p>
-                        <p>King-size bed</p>
-                        <p>
-                            40m2
-                            
-                        </p>
-                        <p>
-                            <i class="fa fa-bath"></i>
-                            <i class="fa fa-phone"></i>
-                            <i class="fa fa-wifi"></i>
-                            <i class="fa fa-tv"></i>
-                            <i class="ti-filter"></i>
-                            <i class="ti-ruler-pencil"></i>
-                        </p>
-                        <a href="#"><button>Choose Room</button></a> 
-                    </div>
+    <div class="wrapper">
+        <!-- block banner header -->
+        <header class="header">
+            <div class="container">
+                
+                <div class="header__logo">
+                    <img src="/img/Logo_header.png" class="header__logo-img" alt="Logo">
                 </div>
                 <div class="clear"></div>
+                <ul class="header__menu">
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">study</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">About us</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">Admmission</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">Pages</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">News</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">Contact</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link"><button>Apply now</button></a>
+                    </li>
+                    <div class="clear"></div>
+                </ul>
             </div>
-        </div>
-        <!-- End pick_rooms  -->
+        </header>
+        <!-- block banner -->
+        <section class="banner">
+            <div class="container">
+                <div class="banner__bg">
+                    <img src="/img/img-banner-bg.png" alt="">
+                </div>
+                <div class="banner__content">
+                    <h2 class="banner__content-header">
+                        Innovation for education and society
+                    </h2>
+                    <p class="banner__content-body">
+                        Our interdisciplinary majors and minors mean you can chart your own course for academic success.
+                    </p>
+                    <a href="" class="banner__content-btn">
+                        <button>Visit our Campus</button>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-        <!-- about -->
-        <div class="about">
-            <div class="row">
-                <div class="col_third">
-                    <h3>About</h3>
-                    <h6>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h6>
-                    <p>
-                        We accept: 
-                        <i class="fa fa-credit-card"></i>
-                        <i class="fa fa-cc-mastercard"></i>
-                        <i class="fa fa-cc-amex"></i>
-                        <i class="fa fa-cc-cc-visa"></i>
-                        <i class="fa fa-cc-paypal"></i>
+        <!-- block OUT -->
+        <section class="our">
+            <div class="container">
+                <div class="our__header">
+                    <h2 class="our__header-title">
+                        Our Department
+                    </h2>
+                    <p class="our__header-content">
+                        A hundred thousand grateful loves to your dear papa and mamma. Is your poor brother recovered of his rack-punch? Oh, dear! Oh, dear! How men should beware of wicked punch!
                     </p>
                 </div>
-
-                <div class="about_map">
-                    <img src="/img/map/map.jpg" alt="">
-                </div>
-
-                <div class="clear"></div>
-            </div>
-        </div>
-        <!-- End about -->
-
-        <!-- local_địa chỉ -->
-        <div class="about_local">
-            <div class="row">
-                <div class="col_third">
-                    <p><i class="fa fa-map-marker"></i>423 Some adr, Chicago, US</p>
-                </div>
-                <div class="col_third">
-                    <p><i class="fa fa-phone"></i>Phone: +00 151515</p>
-                </div>
-                <div class="col_third">
-                    <p><i class="fa fa-envelope"></i>Email: mail@mail.com</p>
-                </div>
-                <div class="clear"></div>
-            </div>
-        </div>
-        <!-- End local_địa chỉ -->
-
-        <!-- NOTE -->
-        <div class="panel_note">
-            <p><i class="fa fa-info"></i>On demand, we can offer playstation, babycall, children care, dog equipment, etc.</p>
-        </div>
-        <!-- End NOTE -->
-        
-        <!-- Our_hotel -->
-        <div class="our_hotel">
-            <h2>Our Hotels</h2>
-            <p>You can find our hotels anywhere in the world:</p>
-        </div>
-        <!-- End hotel -->
-
-        <!-- Picture hotel -->
-        <div class="our_hotel_img">
-            <div class="row">
-                <div class="col_half">
-                    <img src="/img/our_hotel/cinqueterre.jpg" alt="">
-                    <p>Cinque Terre</p>
-                </div>
-                <div class="col_half">
-                    <div class="row">
-                        <div class="col_half">
-                            <img src="/img/our_hotel/newyork2.jpg" alt="">
-                            <p>New York</p>
-                        </div>
-                        <div class="col_half">
-                            <img src="/img/our_hotel/sanfran.jpg" alt="">
-                            <p>San Francisco</p>
-                        </div>
-                        <div class="clear"></div>
+                <div class="our__banner">
+                    <div class="our__banner-item">
+                        <img src="/img/our-item-fist.png" alt="">
+                        <h3>Online education</h3>
                     </div>
-                    <div class="row">
-                        <div class="col_half">
-                            <img src="/img/our_hotel/pisa.jpg" alt="">
-                            <p>Pisa</p>
-                        </div>
-                        <div class="col_half">
-                            <img src="/img/our_hotel/paris.jpg" alt="">
-                            <p>Paris</p>
-                        </div>
-                        <div class="clear"></div>
+                    <div class="our__banner-item">
+                        <img src="/img/our-item-second.png" alt="">
+                        <h3>Online education</h3>
                     </div>
-                    <div class="clear"></div>
+                    <div class="our__banner-item">
+                        <img src="/img/our-item-third.png" alt="">
+                        <h3>Online education</h3>
+                    </div>
                 </div>
-                <div class="clear"></div>
             </div>
-        </div>
-        <!-- End Picture hotel -->
+        </section>
 
-        <!-- Info -->
-        <div class="form_info">
-            <div class="form_info_content">
-                <h2>Get the best offers first!</h2>
-                <p>Join our newsletter.</p>
-                <h5>E-mail</h5>
-                <input type="text" placeholder="Your Email address">
-                <a href="#"><button>Subscribe</button></a>
+        <!-- block backgoud -->
+        <section class="bg">
+            <div class="container">
+                <div class="bg__left">
+                    <img src="/img/bg-left.png" alt="">
+                </div>
+                <div class="bg__right">
+                    <img src="/img/bg-right.png" alt="">
+                </div>
             </div>
-        </div>
-        <!-- End Info -->
+        </section>
 
-        <!-- Contact -->
-        <div class="contact">
-            <div class="contact_content">
-                <h2>Contact</h2>
-                <h5>If you have any questions, do not hesitate to ask them.</h5>
-                <p><i class="fa fa-map-marker"></i>Chicago, US</p>
-                <p><i class="fa fa-phone"></i>Phone: +00 151515</p>
-                <p><i class="fa fa-envelope"></i>Email: mail@mail.com</p>
-                <input type="text" placeholder="Name">
-                <input type="mail" placeholder="Email">
-                <input type="text" placeholder="Message">
-                <a href="#"><button>SEND MESSAGE</button></a>
+        <!--  block limited -->
+        <section class="limited">
+            <div class="container">
+                <div class="limited__media">
+                    <div class="limited__media-boder">
+                        <img src="/img/limited-boder-media.png" alt="boder-media">
+                    </div>
+                    <div class="limited__media-item">
+                        <img src="/img/limited-media.png" alt="limited-media">
+                    </div>
+                    <div class="linited__media-btn">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!-- End Contact -->
+        </section>
 
-        <!-- Footer -->
-        <div class="footer">
-            <h3>Find Us On</h3>
-            <div>
-                <i class="ti-facebook"></i>
-                <i class="ti-instagram"></i>
-                <i class="ti-html5"></i>
-                <i class="ti-pinterest"></i>
-                <i class="ti-twitter-alt"></i>
-                <i class="ti-linkedin"></i>
+        <!-- block university -->
+        <section class="university">
+            <div class="container">
+                <div class="university__header">
+                    <h2> Around the University</h2>
+                </div>
+                <div class="university__row">
+
+                    <!-- item 1 -->
+                    <div class="university__row-item">
+                        <div class="item__picture">
+                            <img src="/img/photoshop-cc-2018.png" alt="photoshop-cc-2018">
+                        </div>
+                        <div class="item__content">
+                            <h2 class="item__content-header">
+                                Photoshop CC 2018 Essential Training: The Basics
+                            </h2>
+                            <p class="item__content-note">
+                                Graphics Design
+                            </p>
+                            <p class="item__content-more">
+                                Keep reading...
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- item 2 -->
+                    <div class="university__row-item">
+                        <div class="item__picture">
+                            <img src="/img/android-apps.png" alt="android-apps">
+                        </div>
+                        <div class="item__content">
+                            <h2 class="item__content-header">
+                                Get Started Coding Android Apps With Kotlin
+                            </h2>
+                            <p class="item__content-note">
+                                Global Sytem
+                            </p>
+                            <p class="item__content-more">
+                                Keep reading...
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- item 3 -->
+                    <div class="university__row-item">
+                        <div class="item__picture">
+                            <img src="/img/cinema-4d.png" alt="photoshop-cc-2018">
+                        </div>
+                        <div class="item__content">
+                            <h2 class="item__content-header">
+                                Create Turntable Animations With Cinema 4D
+                            </h2>
+                            <p class="item__content-note">
+                                Computer & Information Technology
+                            </p>
+                            <p class="item__content-more">
+                                Keep reading...
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- item 4 -->
+                    <div class="university__row-item">
+                        <div class="item__picture">
+                            <img src="/img/bootstap-4grid.png" alt="photoshop-cc-2018">
+                        </div>
+                        <div class="item__content">
+                            <h2 class="item__content-header">
+                                A Beginner’s Guide to the New Bootstrap 4 Grid
+                            </h2>
+                            <p class="item__content-note">
+                                Web Development
+                            </p>
+                            <p class="item__content-more">
+                                Keep reading...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- row 2 -->
+                <div class="university__row">
+
+                    <!-- item 1 -->
+                    <div class="university__row-item">
+                        <div class="item__picture">
+                            <img src="/img/designers-guide.png" alt="photoshop-cc-2018">
+                        </div>
+                        <div class="item__content">
+                            <h2 class="item__content-header">
+                                A Designer’s Guide to Vue.js Components
+                            </h2>
+                            <p class="item__content-note">
+                                Art Depermentd
+                            </p>
+                            <p class="item__content-more">
+                                Keep reading...
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- item 2 -->
+                    <div class="university__row-item">
+                        <div class="item__picture">
+                            <img src="/img/mobile-database.png" alt="photoshop-cc-2018">
+                        </div>
+                        <div class="item__content">
+                            <h2 class="item__content-header">
+                                Code a Swift App With Realm Mobile Database
+                            </h2>
+                            <p class="item__content-note">
+                                Music
+                            </p>
+                            <p class="item__content-more">
+                                Keep reading...
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- item 3 -->
+                    <div class="university__row-item">
+                        <div class="item__picture">
+                            <img src="/img/adobe-illustrator.png" alt="photoshop-cc-2018">
+                        </div>
+                        <div class="item__content">
+                            <h2 class="item__content-header">
+                                10 Essential Design Tips in Adobe Illustrator
+                            </h2>
+                            <p class="item__content-note">
+                                Technology Information
+                            </p>
+                            <p class="item__content-more">
+                                Keep reading...
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- item 4 -->
+                    <div class="university__row-item">
+                        <div class="item__picture">
+                            <img src="/img/php.png" alt="photoshop-cc-2018">
+                        </div>
+                        <div class="item__content">
+                            <h2 class="item__content-header">
+                                Modern PHP From The Beginning
+                            </h2>
+                            <p class="item__content-note">
+                                Data Science
+                            </p>
+                            <p class="item__content-more">
+                                Keep reading...
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p>Powered by <a href="#">w3.css</a></p>
-        </div>
-        <!-- End Footer -->
-    
-</div>
+        </section>
 
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container">
+
+                <!-- footer main -->
+                <div class="footer__main">
+                    <div class="footer__main-item">
+                        <div class="footer__main-item-logo">
+                            <img src="/img/Logo-footer.png" alt="Logo footer">
+                        </div>
+                        <p>Edumodo focuses on creating magnificent education websites with ease. Take the lead in the race with Learned. </p>
+                        <p>
+                            <i class="ti-twitter-alt"></i>
+                            <i class="ti-linkedin"></i>
+                            <i class="ti-facebook"></i>
+                            <i class="ti-skype"></i>
+                            <i class="ti-pinterest-alt"></i>
+                            <i class="ti-apple"></i>
+                        </p>
+                    </div>
+                    <div class="footer__main-item-s">
+                        <h2>FEATURED PROGRAMS</h2>
+                        <P>Fixed responsive issue - <h4>Just Now</h4></P>
+                        <p>New portfolio grid layout - <h4>Today</h4></p>
+                        <p>Tested & approved WP 3.6 - <h4>5 Hours Ago</h4></p>
+                        <p>Fixed google map issue - <h4>Yesterday</h4></p>
+                    </div>
+                    <div class="footer__main-item-s">
+                        <h2>Learning</h2>
+                        <p>Our Plans</p>
+                        <p>Free Trial</p>
+                        <p>Academic Solutions</p>
+                        <p>Business Solutions</p>
+                    </div>
+                    <div class="footer__main-item">
+                        <h2>Support Forum</h2>
+                        <p>Write your email into below field and join our quick support forum.</p>
+                        <p><input type="text" placeholder="Email address"> <button>GET HELP</button></p>
+                    </div>
+                </div>
+
+                <div class="footer__sub">
+                    <p class="footer__sub-left">
+                        Copyright <i class="ti-info-alt"></i> 2019 Learned
+                    </p>
+                    <ul class="footer__sub-right">
+                        <li><a href="">Site Map</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Website Use Policy</a></li>
+                        <li><a href="">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <!-- <a href="" class="btn btn--primary btn--size-large">Call now</a> -->
 </body>
 </html>
+
+<!-- BEM: block - element - modifier -->
